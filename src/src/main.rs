@@ -1,21 +1,12 @@
-extern crate gio;
-extern crate gtk;
-
-use std::env;
-
-use gio::{ApplicationExt, ApplicationExtManual, ApplicationFlags};
-use gtk::{
-    Application,
-    ApplicationWindow,
-    WidgetExt,
-    GtkWindowExt,
-};
+extern crate sdl2;
 
 fn main() {
-    let application = Application::new("com.github.rust-by-     example", ApplicationFlags::empty())
-        .expect("Application initialization failed");
-    application.connect_startup(|application| {
-        build_ui(application);
-    });
-    application.run(&env::args().collect::<Vec<_>>());
+    let _sdl = sdl2::init().unwrap();
+    let sdl = sdl2::init().unwrap();
+    let video_subsystem = sdl.video().unwrap();
+    let window = video_subsystem
+        .window("Game", 900, 700)
+        .resizable()
+        .build()
+        .unwrap();
 }
