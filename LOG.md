@@ -44,3 +44,17 @@ error: failed to run custom build command for `openssl v0.9.24`
 ```
 bricked ubuntu twice so now I am going to bed
 <hr>
+
+
+<hr>
+<strong>Name: </strong> Arctesian
+<br>
+<strong>Time: </strong>  20:00 - 21:45
+<br>
+<strong>Date: </strong>  <em>15/2/22</em> 
+<strong>Goal: </strong> <em>Procsess STL model
+<br>
+<strong>Description: </strong> Got it working kinda
+
+
+
