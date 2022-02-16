@@ -57,4 +57,13 @@ bricked ubuntu twice so now I am going to bed
 <strong>Description: </strong> Got it working kinda
 
 
+<hr>
+<strong>Name: </strong> Arctesian
+<br>
+<strong>Time: </strong>  20:00 - 21:45
+<br>
+<strong>Date: </strong>  <em>16/2/22</em> 
+<strong>Goal: </strong> <em>Procsess STL model
+<br>
+<strong>Description: </strong> Displays data but does not display on xmonad
 

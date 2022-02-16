@@ -1,6 +1,6 @@
 mod file;
 
-use file_watcher::FileRevisions;
+use file::FileRevisions;
 use kiss3d::light::Light;
 use kiss3d::resource::Mesh;
 use kiss3d::scene::SceneNode;
