@@ -1,11 +1,3 @@
-import bpy #blender 
-
-
-
-
-
-
-
 # This spawns a 3d object in the scene.
 # # pip install vpython 
 
